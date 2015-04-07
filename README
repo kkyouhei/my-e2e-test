@@ -1,0 +1,6 @@
+# Seleniumで実行
+bundle exec rspec
+TARGET=selenium bundle exec rspec
+
+# Poltergeistで実行
+TARGET=poltergeist bundle exec rspec
