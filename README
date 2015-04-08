@@ -2,5 +2,5 @@
 bundle exec rspec
 TARGET=selenium bundle exec rspec
 
-# Poltergeistで実行
+# Poltergeistで実行 phantomjsが2.0.0だとエラーが発生したので1.8.2で実行
 TARGET=poltergeist bundle exec rspec
